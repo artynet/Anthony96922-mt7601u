@@ -774,4 +774,4 @@ WFLAGS += -DLLTD_SUPPORT
 endif
 
 # Linux 2.6
-EXTRA_CFLAGS := $(WFLAGS)
+EXTRA_CFLAGS := $(WFLAGS) -Wno-return-type
